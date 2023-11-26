@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- Font Family -->
+      <link
+         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+         rel="stylesheet"
+      />
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="css/font-awesome.css" />
+      <!-- Bootsrap Custom -->
+      <link rel="stylesheet" href="css/bootstrap.css" />
+      <!-- CSS -->
+      <link rel="stylesheet" href="css/styles.css" />
+      <!-- Fav Icon -->
+      <link rel="icon" href="images/faviconMe.png" />
+      <!-- ASON - animation on scrolling -->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   </head>
+   <body>
+      <!-- Navigation -->
+      <nav class="navbar py-3 navbar-expand-lg fixed-top navbar-dark">
+         <div class="container">
+            <div>
+               <a href="index.html" class="navbar-brand"
+                  ><i class="fa-solid fa-user"></i> Grzegorz Czekaj</a
+               >
+            </div>
+
+            <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#navbarNavDropdown"
+            >
+               <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                     <a href="#streets" class="nav-link fw-semibold">OKRĘG V</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#future-years" class="nav-link fw-semibold"
+                        >LATA 2023/2028</a
+                     >
+                  </li>
+                  <li class="nav-item">
+                     <a href="#former-years" class="nav-link fw-semibold"
+                        >LATA 2021/2022</a
+                     >
+                  </li>
+                  <li class="nav-item">
+                     <a
+                        href="contact.html"
+                        class="nav-link btn btn-outline-light fw-semibold px-4 mx-4"
+                        >KONTAKT</a
+                     >
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+
+      <!-- Header -->
+      <header class="header">
+         <!-- Hero -->
+         <div class="hero text-white pt-7 pb-4">
+            <div class="container-xl">
+               <div class="row">
+                  <div class="col-12">
+                     <h1>KONTAKT</h1>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <!-- Contact Form -->
+      <section class="contact bg-light">
+         <div class="container py-5">
+            <div class="row">
+               <div class="col-12">
+                  <form action="https://formspree.io/f/mrgvnzvq" method="POST">
+                     <div class="mb-3">
+                        <input
+                           type="text"
+                           class="form-control form-control-lg"
+                           name="name"
+                           placeholder="Name"
+                        />
+                     </div>
+                     <div class="mb-3">
+                        <input
+                           type="email"
+                           class="form-control form-control-lg"
+                           name="email"
+                           placeholder="Email"
+                        />
+                     </div>
+                     <div class="mb-3">
+                        <textarea
+                           class="form-control form-control-lg"
+                           name="message"
+                           rows="6"
+                           placeholder="Message"
+                        ></textarea>
+                     </div>
+                     <div class="d-grid">
+                        <button
+                           type="submit"
+                           class="btn btn-primary text-white mt-3"
+                        >
+                           Submit
+                        </button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="border-top border-primary bg-dark text-white py-4">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-8">
+                  <ul class="nav">
+                     <li class="nav-item">
+                        <a href="#streets" class="nav-link link-light"
+                           >OKRĘG V</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a href="#future-years" class="nav-link link-light"
+                           >LATA 2023/2028</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a href="#former-years" class="nav-link link-light"
+                           >LATA 2021/2023</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a href="contact.html" class="nav-link link-light"
+                           >KONTAKT</a
+                        >
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-4">
+                  <p class="text-end d-none d-md-block">
+                     Copyright &copy; Grzegorz Czekaj 2023
+                  </p>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <!-- AOS scrolling animation -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script src="js/script.js"></script>
+   </body>
+</html>
