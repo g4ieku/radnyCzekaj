@@ -33,6 +33,40 @@ body {
   border: none;
 }
 
+.border-custom {
+  border: 1px solid #444;
+  transition: all 0.4s ease-in-out;
+}
+
+.border-custom:hover {
+  color: var(--bs-primary);
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  background-color: #555;
+  display: grid;
+  align-content: center;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.icon:hover {
+  background-color: var(--bs-warning);
+}
+
+.plan-box:hover .icon {
+  background-color: var(--bs-warning);
+  font-size: x-large;
+}
+
+.plan-box:hover p {
+  font-weight: 500;
+}
+
 @media (max-width: 1000px) {
   .navbar {
     background: var(--bs-dark);
