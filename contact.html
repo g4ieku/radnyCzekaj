@@ -67,10 +67,10 @@
       </nav>
 
       <!-- Header -->
-      <header class="header">
+      <header class="header pt-7 pb-4">
          <!-- Hero -->
-         <div class="hero text-white pt-7 pb-4">
-            <div class="container-xl">
+         <div class="hero text-white">
+            <div class="container">
                <div class="row">
                   <div class="col-12 text-lg-start text-center">
                      <h1
@@ -87,10 +87,76 @@
       </header>
 
       <!-- Contact Form -->
-      <section class="contact bg-light">
-         <div class="container py-5">
-            <div class="row">
-               <div class="col-12">
+      <section class="contact bg-light py-lg-6 py-md-4">
+         <div class="container">
+            <!-- Row -->
+            <div class="row g-4">
+               <!-- Col - contact accordion -->
+               <div id="contact" class="col-lg-4">
+
+                  <!-- Accordion -->
+                  <div class="accordion accordion-flush" id="accordionFlush">
+                     <!-- First Accordion Item -->
+                     <div class="accordion-item">
+                        <h2 class="accordion-header">
+                           <button
+                              class="accordion-button collapsed bg-primary"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapseOne"
+                              aria-expanded="false"
+                              aria-controls="flush-collapseOne"
+                           >
+                              <span><i class="fa-solid fa-envelope"></i> Address
+                              E-mail
+                           </button>
+                        </h2>
+                        <div
+                           id="flush-collapseOne"
+                           class="accordion-collapse collapse"
+                           data-bs-parent="#accordionFlushExample"
+                        >
+                           <div class="accordion-body">
+                              radnygrzegorzczekaj@gmail.com
+                           </div>
+                        </div>
+                     </div>
+
+                     <!-- Second Accordion Item -->
+                     <div class="accordion-item">
+                        <h2 class="accordion-header">
+                           <button
+                              class="accordion-button collapsed bg-primary"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapseTwo"
+                              aria-expanded="false"
+                              aria-controls="flush-collapseTwo"
+                           >
+                              <i class="fa-solid fa-phone"></i> Telefon
+                              kontaktowy
+                           </button>
+                        </h2>
+                        <div
+                           id="flush-collapseTwo"
+                           class="accordion-collapse collapse"
+                           data-bs-parent="#accordionFlushExample"
+                        >
+                           <div class="accordion-body">(+48)888129384</div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="map-contact my-3 d-lg-block d-none">
+                     <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1809.8690217732985!2d20.043421458712736!3d50.09487409984575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2spl!4v1701031687801!5m2!1sen!2spl"
+                        allowfullscreen
+                     ></iframe>
+                  </div>
+                  
+               </div>
+               <!-- Col -->
+               <div class="col-lg-8">
                   <form action="https://formspree.io/f/mrgvnzvq" method="POST">
                      <div class="mb-3">
                         <input
@@ -131,8 +197,8 @@
       </section>
 
       <!-- Footer -->
-      <footer class="border-top border-primary bg-dark text-white py-4">
-         <div class="container">
+      <footer class="border-top border-primary bg-dark text-white py-3">
+         <div class="container ">
             <div class="row align-items-center">
                <div class="col-md-8">
                   <ul class="nav">

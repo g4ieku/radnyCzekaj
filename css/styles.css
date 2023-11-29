@@ -33,6 +33,14 @@ body {
   border: none;
 }
 
+.map-contact iframe {
+  left: 0;
+  top: 0;
+  height: 300px;
+  width: 100%;
+  border: none;
+}
+
 .border-custom {
   border: 1px solid #444;
   transition: all 0.4s ease-in-out;
