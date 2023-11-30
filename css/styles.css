@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+:root {
+  --c-dark: #212529;
+  --transition: all 0.5s ease-in-out;
+}
+
 body {
   font-family: "Manrope", sans-serif;
 }
@@ -8,7 +13,7 @@ body {
 }
 
 .navbar {
-  transition: all 0.5s ease-in-out;
+  transition: var(--transition);
 }
 
 .navbar-sticky {
@@ -43,7 +48,7 @@ body {
 
 .border-custom {
   border: 1px solid #444;
-  transition: all 0.4s ease-in-out;
+  transition: var(--transition);
 }
 
 .border-custom:hover {
@@ -59,7 +64,7 @@ body {
   text-align: center;
   font-size: 32px;
   color: white;
-  transition: all 0.4s ease-in-out;
+  transition: var(--transition);
 }
 
 .icon:hover {
@@ -77,6 +82,13 @@ body {
 
 .plan-box:hover a {
   font-weight: 600;
+}
+
+.section-title .line {
+  width: 60px;
+  height: 4px;
+  background-color: var(--bs-primary);
+  margin: 16px auto 24px auto;
 }
 
 @media (max-width: 1000px) {
