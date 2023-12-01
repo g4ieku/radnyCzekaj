@@ -100,6 +100,12 @@ body {
    margin: 16px auto 24px auto;
 }
 
+// former-years - links
+#former-years span a {
+   color: white;
+   text-decoration: none;
+}
+
 @media (max-width: 1000px) {
    .navbar {
       background: var(--bs-dark);
