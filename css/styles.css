@@ -26,6 +26,10 @@ body {
   background-size: cover;
 }
 
+#streets {
+  overflow: hidden;
+}
+
 .modal-dialog {
   max-width: 1040px;
 }
