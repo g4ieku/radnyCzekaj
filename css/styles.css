@@ -118,6 +118,31 @@ body {
    text-decoration: none;
 }
 
+.text-glow {
+   animation: flicker 1.5s infinite alternate;
+}
+
+/* Flickering animation */
+@keyframes flicker {
+   0%,
+   18%,
+   22%,
+   25%,
+   53%,
+   57%,
+   100% {
+      text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #efbf67,
+         0 0 80px #efbf67, 0 0 90px #efbf67, 0 0 100px #efbf67,
+         0 0 150px #efbf67;
+   }
+
+   20%,
+   24%,
+   55% {
+      text-shadow: none;
+   }
+}
+
 @media (max-width: 1000px) {
    .navbar {
       background: var(--bs-dark);
