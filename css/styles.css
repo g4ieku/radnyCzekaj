@@ -1,114 +1,114 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
 :root {
-  --c-dark: #212529;
-  --transition: all 0.5s ease-in-out;
+   --c-dark: #212529;
+   --transition: all 0.5s ease-in-out;
 }
 
 body {
-  font-family: "Manrope", sans-serif;
+   font-family: "Manrope", sans-serif;
 }
 
 .navbar .btn-outline-light:hover {
-  color: var(--bs-dark);
+   color: var(--bs-dark);
 }
 
 .navbar {
-  transition: var(--transition);
+   transition: var(--transition);
 }
 
 .navbar-sticky {
-  opacity: 0.9;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   opacity: 0.9;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .header {
-  background: url(../images/header-background.jpg) center center no-repeat;
-  background-size: cover;
+   background: url(../images/header-background.jpg) center center no-repeat;
+   background-size: cover;
 }
 
 #streets {
-  overflow: hidden;
+   overflow: hidden;
 }
 
 .modal-dialog {
-  max-width: 1040px;
+   max-width: 1040px;
 }
 
 .map iframe {
-  left: 0;
-  top: 0;
-  height: 500px;
-  width: 100%;
-  border: none;
+   left: 0;
+   top: 0;
+   height: 500px;
+   width: 100%;
+   border: none;
 }
 
 .map-contact iframe {
-  left: 0;
-  top: 0;
-  height: 300px;
-  width: 100%;
-  border: none;
+   left: 0;
+   top: 0;
+   height: 300px;
+   width: 100%;
+   border: none;
 }
 
 .border-custom {
-  border: 1px solid #444;
-  transition: var(--transition);
+   border: 1px solid #444;
+   transition: var(--transition);
 }
 
 .border-custom:hover {
-  color: var(--bs-primary);
+   color: var(--bs-primary);
 }
 
 .icon {
-  width: 60px;
-  height: 60px;
-  background-color: #555;
-  display: grid;
-  align-content: center;
-  text-align: center;
-  font-size: 32px;
-  color: white;
-  transition: var(--transition);
+   width: 60px;
+   height: 60px;
+   background-color: #555;
+   display: grid;
+   align-content: center;
+   text-align: center;
+   font-size: 32px;
+   color: white;
+   transition: var(--transition);
 }
 
 .icon:hover {
-  background-color: var(--bs-warning);
+   background-color: var(--bs-warning);
 }
 
 .plan-box:hover .icon {
-  background-color: var(--bs-warning);
-  font-size: x-large;
+   background-color: var(--bs-warning);
+   font-size: x-large;
 }
 
 .plan-box:hover p {
-  font-weight: 500;
+   font-weight: 500;
 }
 
 .plan-box:hover a {
-  font-weight: 600;
+   font-weight: 600;
 }
 
 .section-title .line {
-  width: 60px;
-  height: 4px;
-  background-color: var(--bs-primary);
-  margin: 16px auto 24px auto;
+   width: 60px;
+   height: 4px;
+   background-color: var(--bs-primary);
+   margin: 16px auto 24px auto;
 }
 
 #former-years span a {
-  color: white;
-  text-decoration: none;
+   color: white;
+   text-decoration: none;
 }
 
 @media (max-width: 1000px) {
-  .navbar {
-    background: var(--bs-dark);
-  }
-  .hero .image-container {
-    display: flex;
-    justify-content: center;
-  }
-  .hero .text-container {
-    text-align: center;
-  }
+   .navbar {
+      background: var(--bs-dark);
+   }
+   .hero .image-container {
+      display: flex;
+      justify-content: center;
+   }
+   .hero .text-container {
+      text-align: center;
+   }
 }
