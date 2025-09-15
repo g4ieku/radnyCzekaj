@@ -1,41 +1,34 @@
-# radnyCzekaj
+# 🕸️ radnyCzekaj
+A responsive Bootstrap-based website template built using Sass, with modern components and customizable styles.
 
-Bootstrap website
+## 🔗 Link
+https://radnyczekaj.pl/
 
-<img src="./images/screen.png"  />
+## ✨ Features
+- Clean, modern layout with custom colors, backgrounds, and styles,
+- Responsive design: adapts to different screen sizes smoothly,
+- Sticky navigation bar that changes style on scroll,
+- Modals (Bootstrap modals) for dialogs/popups,
+- Styled forms & inputs,
+- Testimonials section,
+- Contact page with embedded Google Map.
 
-## Features
+## 🛠️ Technologies Used
+- Bootstrap — core UI framework,
+- Sass — for styling and advanced CSS features,
+- Font Awesome — icons,
+- Node.js — for package management and building assets.
 
-- Modern layout with custom colors/styles/backgrounds
-- Responsive design
-- Sticky navbar with style changes on scroll
-- Bootstrap modals
-- Form & input styles
-- Testimonials
-- Contact page with Google Map
+## 📐 Installation & Setup
+1. Clone the repository. 
+2. Install dependencies 👉 npm install
+3. Build CSS from Sass 👉 npm run sass:build
+4. Watch for changes during development 👉 npm run sass:watch
 
-## Usage
+## 🚀 Customization
+- To customize colors, fonts, etc., you can modify variables in the Bootstrap.scss file,
+- Avoid modifying Bootstrap’s internal _variables.scss directly (found in node_modules/bootstrap/...) as updates may overwrite it. Instead, override via your own styles (e.g. in styles.scss),
+- Add custom styles in styles.scss or within the SCSS folder as appropriate.
 
-This website is built with [Bootstrap](https://getbootstrap.com/) and [Sass](https://sass-lang.com/). It uses [Font Awesome](https://fontawesome.com/) for icons.
-
-In order to customize this website, you need to install [Node.js](https://nodejs.org/en/). Then, clone this repository and run:
-
-```bash
-npm install
-```
-
-This will install Bootstrap, Sass and Font Awesome. To build your CSS files from Sass, run:
-
-```bash
-npm run sass:build
-```
-
-To watch your Sass files for changes, run:
-
-```bash
-npm run sass:watch
-```
-
-You can add Bootstrap variables to the `bootstrap.scss` file. You can look at the file `node_modules/bootstrap/dist/scss/_variables.scss` for a list of all the variables. Do NOT edit the `variables.scss` file directly, as it will be overwritten when you update Bootstrap.
-
-To add your own custom styles, use the `styles.scss` file.
+## 📸 Website UI
+![screenshot](images/websitescreenshoot.png)
